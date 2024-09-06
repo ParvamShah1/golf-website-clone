@@ -159,9 +159,7 @@ marquee:hover{
     border-radius: 10%;
     z-index: 5;
     transition: transform 0.3s ease;
-    
-
-    
+    will-change: transform;
     
 }
 .bannerin{
@@ -169,7 +167,7 @@ marquee:hover{
     width: 400px;
     border-radius: 10%;
     background-color: #95C11E;
-    transition: transform 0.3s ease;
+
 
 }
 #place {
@@ -183,7 +181,7 @@ marquee:hover{
 }
 .bannerimg:hover{
     
-    transform: translateY(-250px);
+transform: translateY(-250px);
     
 
 }
